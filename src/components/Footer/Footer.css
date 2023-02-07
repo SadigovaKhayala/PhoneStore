@@ -1,0 +1,77 @@
+:root {
+  --primary-dark-color: #262626;
+}
+
+.bg-color-dark {
+  background-color: var(--primary-dark-color);
+}
+.border-gray {
+  border-top: 1px solid #5b5e62c4;
+}
+/* display-flex */
+.socialMedia {
+  display: flex;
+}
+/*  */
+
+.socialMedia {
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+.fa-home {
+  color: white;
+}
+.container {
+  margin-top: 0;
+}
+
+.socialMedia {
+  margin-left: 3rem;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .socialMedia {
+    margin-left: 3rem;
+  }
+  .mx-auto:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .socialMedia {
+    margin-left: 25%;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .socialMedia {
+    margin-left: 3rem;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .socialMedia {
+    margin-left: 0.6rem;
+  }
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .socialMedia {
+    margin-left: 0.6rem;
+  }
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+  .socialMedia {
+    margin-left: 0.6rem;
+  }
+}

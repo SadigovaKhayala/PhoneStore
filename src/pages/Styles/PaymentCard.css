@@ -1,0 +1,228 @@
+/* === Credit Card === */
+.credit-card {
+  display: block;
+  position: relative;
+  width: 93.75%; /* This is 300px on 320px wide screen */
+  max-width: 500px; /* Just to make sure that it doesnt get crazy on bg screens */
+  min-width: 300px; /* And make sure that it contains at least some size */
+  margin: 30px auto;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.credit-card .inputs {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.credit-card .inputs li {
+  margin-bottom: 30px;
+}
+
+.credit-card .inputs li.last {
+  margin-bottom: 10px;
+}
+
+.credit-card .inputs li.expire {
+  float: left;
+  width: 70%;
+  margin-right: 5%;
+}
+
+.credit-card .inputs li.expire input {
+  float: left;
+  width: 35%;
+}
+
+.credit-card .inputs li.expire input.month {
+  width: 60%;
+  margin-right: 5%;
+}
+
+.credit-card .inputs li.cvc-code {
+  float: left;
+  width: 25%;
+}
+
+.credit-card .inputs li.cvc-code input {
+  width: 100%;
+}
+
+.credit-card .watermark {
+  position: absolute;
+  z-index: 10;
+}
+
+.credit-card form {
+  position: relative;
+  z-index: 50;
+}
+
+.credit-card .logo {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* === Visa === */
+.visa {
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.visa h2 {
+  text-shadow: 1px 1px 2px #2CD06E(17, 121, 173, 0.8);
+}
+
+.visa .logo {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+  font-style: italic;
+  text-shadow: 0px 0px 3px #2CD06E(17, 123, 173, 0.9);
+}
+
+.visa .logo:after {
+  content: ' ';
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid orange;
+  border-left: 10px solid transparent;
+}
+
+.visa .watermark {
+  bottom: -100px;
+  left: -50px;
+  color: rgba(255, 255, 255, 0.154);
+  font-size: 20em;
+  font-weight: bold;
+  font-style: italic;
+}
+/* === Forms === */
+.modal-dialog label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.modal-dialog input {
+  display: block;
+  padding: 12px 10px;
+  color: rgb(48, 64, 64);
+  font-size: 1.2em;
+  border: 1px solid rgba(47, 60, 64, 0.6);
+
+  border-radius: 3px;
+}
+
+.modal-dialog input.full {
+  width: 100%;
+}
+
+/* === Gradients === */
+.gr-visa {
+  background: #2cd06e; /* Old browsers */
+  background: -moz-linear-gradient(top, #41d27b 0%, #138a42 100%); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #2cd06e),
+    color-stop(100%, #1078ab)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #2cd06e 0%,
+    #2cd06e 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #1de56d 0%,
+    #2cd06e 100%
+  ); /* Opera 11.10+ */
+  background: #24c665; /* IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1db1cf', endColorstr='#1078ab',GradientType=0 ); /* IE6-9 */
+}
+.gr-input {
+  background: #d3d3d3; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #d3d3d3 0%,
+    #d9d9d9 38%,
+    #e5e5e5 82%,
+    #e7e7e7 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #d3d3d3),
+    color-stop(38%, #d9d9d9),
+    color-stop(82%, #e5e5e5),
+    color-stop(100%, #e7e7e7)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #d3d3d3 0%,
+    #d9d9d9 38%,
+    #e5e5e5 82%,
+    #e7e7e7 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #d3d3d3 0%,
+    #d9d9d9 38%,
+    #e5e5e5 82%,
+    #e7e7e7 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #d3d3d3 0%,
+    #d9d9d9 38%,
+    #e5e5e5 82%,
+    #e7e7e7 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #d3d3d3 0%,
+    #d9d9d9 38%,
+    #e5e5e5 82%,
+    #e7e7e7 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+/*modal */
+.modal-dialog {
+  margin-top: 12rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.modal-content {
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.submitPaymentBtn {
+  background-color: #15bc58 !important;
+  border-radius: 8px;
+  width: 35%;
+  color: white !important;
+  font-size: 14px !important;
+  margin-bottom: 2rem !important;
+}
+
+.submitPaymentBtn:hover {
+  background-color: #0fb250 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

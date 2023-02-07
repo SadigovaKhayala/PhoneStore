@@ -1,0 +1,14 @@
+.mainBasketDiv {
+  margin-top: 10rem;
+  width: 100vw;
+}
+
+.basketCardContainer,
+.basketInnerDiv {
+  width: 100vw !important;
+  display: flex;
+  flex-direction: column;
+}
+.basketInnerDiv {
+  width: 100vw !important;
+}

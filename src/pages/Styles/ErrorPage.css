@@ -1,0 +1,26 @@
+.errorPage {
+  width: 100vw;
+  margin: 0;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.errorPage img {
+  width: 25vw;
+  margin: 3rem 0;
+}
+.errorPage a {
+  font-size: 18px;
+  color: #2dd06e;
+  font-weight: 400;
+}
+
+.errorPage a:hover {
+  font-size: 20px;
+  color: #5553ac;
+  font-weight: 500;
+}

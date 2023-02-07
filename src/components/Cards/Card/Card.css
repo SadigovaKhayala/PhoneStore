@@ -1,0 +1,236 @@
+.cardRelative {
+  background-image: linear-gradient(to right, #e2def4, rgb(253, 238, 238));
+  position: relative !important;
+  display: flex;
+  align-items: flex-start;
+  border: none !important;
+  width: 95% !important;
+}
+.cardContainer {
+  width: 50vw;
+}
+.absoluteImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+}
+.absoluteImgg {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  width: 300px;
+}
+
+.card-icon {
+  width: 80px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardContainer a svg,
+.cardContainer a {
+  color: #c23b2e !important;
+}
+
+.cardContainer a:hover svg,
+.cardContainer a:hover {
+  color: #c23b2e !important;
+  scale: 1.04;
+  font-weight: 500;
+}
+/* 1st card  */
+.cardFirst {
+  width: 86vw;
+  margin: 0 !important;
+  margin-left: 1.3rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstCardRelative {
+  border: none !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 230, 212),
+    rgb(255, 255, 255)
+  );
+  position: relative !important;
+  display: flex;
+  align-items: flex-start;
+  width: 100% !important;
+  margin: 2.5rem 1rem !important;
+  margin-top: 5rem !important;
+}
+
+.mainCarDcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin: 0 !important;
+}
+
+.cardFlexDirection {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden !important;
+}
+.ourServicesContainer {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.servicesMobile {
+  width: 50vw;
+  gap: 6rem;
+}
+
+.logoCarouselBg {
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoryComponent {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.iphonePower {
+  width: 44vw !important;
+}
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .cardFirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .firstCardRelative h3 {
+    margin: 1rem !important;
+  }
+  .firstCardRelative h5,
+  p {
+    margin: 0.4rem 1rem !important;
+  }
+  .firstCardRelative p {
+    margin: 0.4rem 1rem !important;
+  }
+  .smCarouselFlex {
+    margin-top: 12rem;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .cardFirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .firstCardRelative h3 {
+    margin: 1rem !important;
+  }
+  .firstCardRelative h5,
+  p {
+    margin: 0.4rem 1rem !important;
+  }
+  .firstCardRelative p {
+    margin: 0.4rem 1rem !important;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cardFirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .firstCardRelative h3 {
+    margin: 1rem !important;
+  }
+  .firstCardRelative h5,
+  p {
+    margin: 0.4rem 1rem !important;
+  }
+  .firstCardRelative p {
+    margin: 0.4rem 1rem !important;
+  }
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .categoryComponent {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .absoluteImg {
+    width: 50%;
+    right: 2px;
+  }
+
+  .categoryComponent {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+  .absoluteImg {
+    width: 50%;
+    right: 2px;
+  }
+
+  .categoryComponent {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cardFirst {
+    width: 87vw;
+    margin: 0 !important;
+    margin-left: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .iphonePower {
+    width: 50% !important;
+    height: 300px !important;
+  }
+}

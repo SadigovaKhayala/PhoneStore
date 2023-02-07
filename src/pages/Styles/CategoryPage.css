@@ -1,0 +1,249 @@
+input[type='checkbox'] {
+  accent-color: #03a745;
+  width: 18px;
+  height: 18px;
+  margin: 1rem;
+}
+
+.testLoading {
+  margin-top: 20rem;
+}
+.categoryPageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95.5%;
+  margin-bottom: 1rem;
+}
+
+.categoryPageHeader select {
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  height: 50px;
+  width: 14vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  appearance: none;
+}
+.FilterAccdn {
+  margin-left: 1rem;
+}
+.categoryProdPage {
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100vw;
+}
+.filteredProductsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100vw;
+}
+.filteredProductsList {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.filteredCard {
+  padding: 1rem;
+}
+.accordion-body form div {
+  display: flex;
+}
+.accordion-body form div input {
+  height: 20px;
+  width: 20px;
+  margin: 0.5rem;
+}
+.accordion-body form div p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+.accordion-body form div p:hover {
+  color: #2dd06e;
+}
+.priceAvarage form div input {
+  width: 55%;
+  height: 30px;
+}
+.priceAvarage form div input::placeholder {
+  font-size: 17px;
+  text-align: end;
+}
+.priceAvarage form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* selectbox for sort */
+.dropbtn {
+  background-color: white;
+  border: 1px solid #4e4e4e;
+  border-radius: 8px;
+  color: #4f4f4f;
+  padding: 6px !important;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 12vw;
+
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 12vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 0.1rem;
+  padding: 5px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #db2c66;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.active-chevron {
+  position: relative;
+}
+
+.dropdown:hover .active-chevron {
+  transform: rotateZ(-180deg);
+}
+.loadingCategory,
+.loadingCategoryCol,
+.loadingCategoryRow {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadingCategory {
+  height: 60vh;
+  margin-top: 10rem;
+}
+
+.puff {
+  margin-top: 10rem;
+
+  margin-left: 10rem !important;
+}
+
+.rangePriceInput {
+  width: 50% !important;
+  height: 50px !important;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 10px !important;
+}
+.rangePriceInput::placeholder {
+  padding: 3px !important;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .filteredProductsRow {
+    flex-direction: column;
+  }
+
+  .FilterAccdn {
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+  .categoryPageHeader {
+    margin: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 85vw;
+  }
+  .dropbtn {
+    width: 30vw;
+  }
+  .dropdown-content {
+    width: 30vw;
+  }
+
+  .filteredProductsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    margin-top: 1rem;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1501px) {
+  .dropbtn,
+  .dropdown-content {
+    width: 8vw;
+  }
+
+  .FilterAccdn {
+    width: 20vw !important;
+  }
+  .filteredPageEls {
+    width: 75vw;
+  }
+}

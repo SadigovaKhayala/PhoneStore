@@ -1,0 +1,250 @@
+.login-container,
+.signupContainer {
+  margin: 9rem 0;
+}
+.signuppContainer {
+  width: 100vw;
+  margin-top: 13rem;
+  margin-bottom: 6rem;
+}
+.loginHeader,
+.loginForm,
+.passwordInput,
+.mailInput,
+.LoginRightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHeader {
+  margin-top: 1rem;
+}
+.mailSentHeader h3 {
+  width: 50vw;
+}
+.loginForm,
+.passwordInput,
+.mailInput {
+  flex-direction: column;
+}
+.loginForm {
+  width: 80%;
+  margin-top: 0;
+}
+.passwordInput {
+  width: 70% !important
+;
+}
+.socialMedia {
+  width: 32px;
+  height: 32px;
+  fill: #4267b2;
+}
+#google {
+  fill: #db4437;
+}
+.iconContainer {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.iconContainer div {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.iconContainer p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.passwordInput,
+.submitInput,
+.mailInput,
+.resetPassword,
+.lastnameInput,
+.phoneInput,
+.firstnameInput,
+.checkBoxInput,
+.iconContainer {
+  width: 70%;
+}
+.mailInput label,
+.passwordInput label,
+.lastnameInput label,
+.phoneInput label,
+.firstnameInput label {
+  text-align: left;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.3rem;
+  font-size: 14px;
+}
+.mailInput input,
+.passwordInput input,
+.lastnameInput input,
+.phoneInput input,
+.firstnameInput input {
+  width: 100%;
+  height: 48px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  border: none;
+  padding: 1rem;
+}
+.resetPassword {
+  text-align: right;
+  padding: 0.8rem 0;
+}
+
+.submitInput input {
+  width: 100%;
+  padding: 1rem 0;
+  background: #2dd06e;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.or {
+  opacity: 50%;
+  margin-bottom: 0;
+}
+.LoginRightContainer {
+  flex-direction: column;
+}
+.signupLink {
+  display: flex;
+  padding-top: 1rem;
+  gap: 10px;
+}
+.passwordInput {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#showpass {
+  position: absolute;
+  right: 3%;
+  bottom: 15%;
+  font-size: 19px;
+}
+.prefiks {
+  position: absolute;
+  left: 0;
+  top: 75%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  padding-left: 1rem;
+}
+.phoneInput input {
+  padding-left: 4.5rem;
+}
+.phoneInput {
+  position: relative;
+}
+.checkBoxInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.checkBoxInput p {
+  padding: 0;
+  margin: 0;
+}
+
+.checkboxIstifadeciShertleri {
+  border: 1px solid #e0e0e0;
+  border-radius: roo 14px !important;
+  width: 24px;
+  height: 24px;
+}
+
+.alert,
+.alertt {
+  color: red;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.alertt {
+  width: 70%;
+  padding: 1rem 1rem 0 1rem;
+}
+.mailInput {
+  margin-bottom: 1rem;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .login-img {
+    display: none;
+  }
+  .loginForm,
+  .iconContainer {
+    width: 100vw;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .mailInput {
+    margin-bottom: 1rem !important;
+  }
+
+  .iconContainer svg {
+    scale: 2;
+  }
+  .iconContainer svg:first-child {
+    scale: 2.5;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .login-img {
+    display: none;
+  }
+  .loginForm,
+  .iconContainer {
+    width: 100vw;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .mailInput {
+    margin-bottom: 1rem;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+}
+
+/* 
+
+*/

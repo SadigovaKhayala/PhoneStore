@@ -1,0 +1,224 @@
+.headerContainer {
+  width: 50%;
+  text-align: center;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.forgotPassword {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
+.testMail {
+  width: 100vw;
+}
+.reset-password-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+.forgotPassword .row {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  overflow-x: hidden !important;
+}
+.reset-password-form {
+  width: 50vw;
+}
+.reset-password-form .input-w-100 {
+  width: 30vw;
+}
+.forgotPassword {
+  margin: 12rem 0 5rem 3rem;
+}
+.mailwasSentRow {
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mailSentHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem;
+  color: #4f4f4f;
+  font-size: 24px;
+}
+.loginSUCCRow {
+  width: 100vw;
+}
+.loginHeader {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.passwordInput {
+  width: 84%;
+  margin: 0 0 2rem 0;
+}
+.passwordInput input {
+  width: 100%;
+}
+.input-w-100 {
+  width: 50vw;
+}
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .forgotPassword {
+    margin: 0;
+    padding: 0;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+  }
+  .forgotPasswordInput {
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .forgotPasswordInput .row {
+    width: 95vw;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .forgotPasswordInput {
+    width: 70vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .input-w-100 {
+    width: 70vw;
+  }
+  .headerContainer {
+    width: 70vw;
+  }
+  .forgot-img-d-none {
+    display: none !important;
+  }
+  .reset-password-form {
+    width: 90vw;
+  }
+  .reset-password-form .input-w-100 {
+    width: 70vw;
+  }
+  .mailSentHeader {
+    width: 80%;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .forgotPassword {
+    margin: 0;
+    padding: 0;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+  }
+  .forgotPasswordInput {
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .forgotPasswordInput .row {
+    width: 95vw;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .forgotPasswordInput {
+    width: 70vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .input-w-100 {
+    width: 70vw;
+  }
+  .headerContainer {
+    width: 70vw;
+  }
+  .forgot-img-d-none {
+    display: none !important;
+  }
+  .reset-password-form {
+    width: 90vw;
+  }
+  .reset-password-form .input-w-100 {
+    width: 70vw;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .forgotPassword {
+    margin: 0;
+    padding: 0;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+  }
+  .forgotPasswordInput {
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .forgotPasswordInput .row {
+    width: 95vw;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .forgotPasswordInput {
+    width: 70vw;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .input-w-100 {
+    width: 70vw;
+  }
+  .headerContainer {
+    width: 70vw;
+  }
+  .forgot-img-d-none {
+    display: none !important;
+  }
+  .reset-password-form {
+    width: 90vw;
+  }
+  .reset-password-form .input-w-100 {
+    width: 70vw;
+  }
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+}

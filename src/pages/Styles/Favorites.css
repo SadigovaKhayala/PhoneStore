@@ -1,0 +1,54 @@
+.favPageCardImg {
+  height: 170px;
+  width: auto;
+  margin-top: 1rem;
+}
+.absolute-heart {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  scale: 1.5;
+  fill: #2dd06e;
+}
+
+.absolute-heart:hover {
+  fill: #bababa;
+  scale: 1.8;
+}
+.favsContainer {
+  min-height: 60vh !important;
+  width: 93% !important;
+}
+.favCart {
+  width: 240px !important;
+  height: 300px !important;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .favsContainer {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 94vw !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+}

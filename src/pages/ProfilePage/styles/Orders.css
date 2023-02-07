@@ -1,0 +1,181 @@
+.background {
+  background-color: #d9d9d978;
+  margin: 0;
+  padding: 4rem 0;
+}
+.profileCategories {
+  margin: 1rem;
+}
+.cartHeader {
+  font-size: 20px;
+  margin: 1rem;
+  color: #4f4f4f;
+}
+
+.profileCategories a {
+  font-size: 16px;
+  margin: 1rem;
+  color: #4f4f4f;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileCategories a p {
+  padding: 0;
+  margin: 0;
+}
+.headerOrdersContainer {
+  font-size: 25px;
+}
+
+.rowContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.ordersContainer {
+  width: 100%;
+
+  border-radius: 8px;
+
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 6rem 0;
+}
+
+.ordersContainer h3 {
+  font-size: 16px;
+  margin: 2rem;
+  color: #bdbdbd;
+}
+.favsLeftContainer {
+  margin-top: 5rem;
+}
+
+.ordersCard {
+  width: 40% !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 370px;
+  margin: 2rem;
+  padding-left: 1rem;
+}
+.orderCardImg img {
+  width: auto;
+  height: 150px;
+}
+.ordersCardData {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.ordersCardData div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+.ordersCardData div p:first-child {
+  color: #828282;
+}
+.ordersContainerFilled {
+  width: 95%;
+  border-radius: 8px;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.orderDetailsBtn {
+  width: 100% !important;
+}
+.orderDetailsBtn button {
+  background: #f2f2f2;
+  border-radius: 4px;
+  border: none;
+  width: 90% !important;
+  height: 40px;
+  color: #4f4f4f;
+  margin-left: 0 !important;
+}
+
+.orderDetailsBtn button:hover {
+  background-color: #2dd06e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .ordersCard {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 420px;
+    margin: 2rem;
+    padding-left: 1rem;
+  }
+  .ordersCardData div {
+    flex-direction: row;
+  }
+  .orderDetailsBtn {
+    width: 50vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .orderDetailsBtn btn {
+    width: 60vw !important;
+  }
+  .ordersCardData {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .headerOrdersContainer {
+    margin-left: 1rem;
+  }
+  .ordersContainerFilled {
+    width: 94vw;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+}

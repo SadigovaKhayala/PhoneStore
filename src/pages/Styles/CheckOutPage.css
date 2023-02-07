@@ -1,0 +1,149 @@
+.checkoutPage {
+  margin-top: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.accordionRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+}
+.sign {
+  width: 100%;
+}
+
+.accordionHeaderCustomer {
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+.accordian {
+  border-top: 1px solid rgb(133, 133, 133);
+  border-bottom: 1px solid rgb(133, 133, 133);
+  margin: 2rem 0;
+}
+.accordiann {
+  border-bottom: 1px solid rgb(133, 133, 133);
+  margin: 2rem 0;
+}
+
+.accordiann-header,
+.accordian-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-bottom: 1px solid rgb(133, 133, 133);
+  padding: 2rem;
+  font-size: 10px;
+  min-height: 25vh !important;
+  margin: 1rem !important;
+}
+
+.accordian-body {
+  padding: 15px 5px;
+}
+.CustomerCurrentDetails:last-child {
+  margin-top: 0 !important;
+  height: 10vh;
+}
+.CustomerCurrentDetails p {
+  font-size: 18px !important;
+  padding: 0.1rem 0 0.1rem 1.3rem;
+}
+.CustomerCurrentDetails h3 {
+  font-size: 20px !important;
+  padding-bottom: 1.3rem 0;
+}
+.done-btn {
+  background-color: #2dd06e;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  padding: 0.2rem;
+}
+.CustomerCurrentButtons {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.CustomerCurrentButtons p {
+  font-size: 16px;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #2d9cdb;
+}
+.accordian-header-closed {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.CustomerClosedButtons {
+  margin: 0 !important;
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomerClosedButtons p {
+  font-size: 16px;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: black;
+}
+.edit-btn {
+  border: 2px solid #2dd06e;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #2dd06e;
+  padding: 0.2rem;
+}
+.payWithCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.payWithCard button {
+  width: 30%;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  gap: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payWithCard button svg {
+  scale: 1.3;
+}
+.payWithCard button:first-child {
+  background-color: white;
+}
+
+.payWithCard button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.payWithCard button:hover svg {
+  fill: #2dd06e;
+  scale: 1.4;
+}
+.CustomerCurrentDetails h3:last-child {
+  margin-top: 3rem;
+  margin-left: 1.3rem;
+}

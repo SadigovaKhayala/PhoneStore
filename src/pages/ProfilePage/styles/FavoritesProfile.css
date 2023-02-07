@@ -1,0 +1,34 @@
+.brokenHeart {
+  scale: 5;
+  margin: 3rem 0;
+  fill: rgb(212, 212, 212);
+}
+.favsRow {
+  display: flex;
+  align-items: flex-start !important;
+}
+
+.favsContainer {
+  width: 100%;
+
+  border-radius: 8px;
+
+  margin: 2rem 0;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.favs-card-img {
+  height: 140px;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

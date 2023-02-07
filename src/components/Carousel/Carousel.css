@@ -1,0 +1,200 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel {
+  margin-top: 8rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0 !important;
+  bottom: 5rem;
+}
+.buy-sell-header h3 {
+  font-size: 50px;
+  color: black;
+  display: flex;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption {
+  width: 70vw;
+}
+
+.buy-sell-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buy-sell-header p {
+  color: black;
+}
+.logoCarouselItem {
+  height: 80px;
+  width: 170px;
+  align-items: center;
+  border: none !important;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoCarouselBg {
+  background-color: #f5f5f7;
+  padding: 1rem 0;
+  height: 10rem;
+}
+.caruselHeaderSm {
+  color: black !important;
+  margin: 2rem;
+}
+.carousel {
+  margin-top: 5rem;
+}
+
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  .logoCarouselItem {
+    display: none;
+  }
+  .caruselSm {
+    gap: 10;
+  }
+  .carousel-inner {
+    height: 60vh;
+  }
+
+  .carousel-inner img {
+    width: 60vw;
+  }
+  .carousel-inner h3 {
+    font-size: 20px;
+  }
+  .carousel-inner p {
+    font-size: 16px;
+  }
+  .categoryHeader {
+    width: 90vw;
+  }
+  .categoryHeader a {
+    display: none;
+    color: black !important;
+  }
+  .cardFlexDirection {
+    flex-direction: column;
+  }
+  .cardContainer {
+    width: 90vw;
+  }
+  .servicesMobile {
+    flex-direction: column;
+    margin: 0 !important;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .smCarouselFlex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel {
+    margin-top: 8rem !important;
+    height: 60vh;
+  }
+  .carousel-item {
+    height: 100%;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .logoCarouselItem {
+    display: none;
+  }
+  .categoryHeader {
+    width: 90vw;
+  }
+  .categoryHeader a {
+    display: none;
+    color: black !important;
+  }
+  .cardFlexDirection {
+    flex-direction: column;
+  }
+  .cardContainer {
+    width: 90vw;
+  }
+  .servicesMobile {
+    flex-direction: column;
+  }
+
+  .smCarouselFlex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carouselCoverimg1 {
+    height: 40vh !important;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .caruselHeaderSm {
+    display: none;
+  }
+  .caruselSm {
+    gap: 20px !important;
+  }
+  .categoryHeader {
+    width: 90vw;
+  }
+  .categoryHeader a {
+    display: none;
+    color: black !important;
+  }
+  .cardFlexDirection {
+    flex-direction: column;
+  }
+  .cardContainer {
+    width: 90vw;
+  }
+  .servicesMobile {
+    flex-direction: column;
+  }
+
+  .smCarouselFlex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .caruselHeaderSm {
+    display: none;
+  }
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .caruselHeaderSm {
+    display: none;
+  }
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+  .caruselHeaderSm {
+    display: none;
+  }
+}

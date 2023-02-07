@@ -1,0 +1,28 @@
+/* .postCarusel {
+}
+.postCarouselImg {
+  width: 10vw;
+  height: 30vh;
+  object-fit: fill;
+}
+/* media screens  */
+/* xs */
+@media screen and (min-width: 0px) and (max-width: 575px) {
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* lg */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+/* xl */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* xxl */
+@media screen and (min-width: 1201px) {
+}
